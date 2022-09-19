@@ -1,0 +1,496 @@
+*{
+    margin: o;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: 0;
+    font-family: 'Dosis', sans-serif;
+}
+.container{
+    width: 90%;
+    float: left;
+}
+.row{
+    width: 100%;
+    float: left;
+}
+.col-1 {
+    width: 8.33%;
+    float: left;
+}
+.col-2 {
+    width: 16.66%;
+    float: left;
+}
+.col-3 {
+    width: 25%;
+    float: left;
+}
+.col-4 {
+    width: 33.33%;
+    float: left;
+}
+.col-5 {
+    width: 41.66%;
+    float: left;
+}
+.col-6 {
+    width: 50%;
+    float: left;
+}
+.col-7 {
+    width: 58.33%;
+    float: left;
+}
+.col-8 {
+    width: 66.66%;
+    float: left;
+}
+.col-9 {
+    width: 75%;
+    float: left;
+}
+.col-10 {
+    width: 83.33%;
+    float: left;
+}
+.col-11 {
+    width: 91.66%;
+    float: left;
+}
+.col-12 {
+    width: 100%;
+    float: left;
+}
+header{
+    background-color: #223047;
+    color: #fff;
+    height: 500px;
+}
+nav{
+    margin-bottom: 5px solid gray;
+}
+.logo-part{
+    color: #14838b;
+    text-align: center;
+}
+.menu-part{
+    padding: 10px 0px;
+    text-align: center;
+} 
+.menu-part li{
+    display: inline-block;
+    padding: 5px 5px;
+    border-radius: 3px solid rgb(219, 207, 207);
+}
+.menu-part a{
+    color: #fff;
+    font-size: 10px;
+    text-transform: capitalize;
+}
+.btn-part{
+    text-align: center;
+ 
+}
+.btn-part button{
+    background-color: #00fff0;
+    color: black;
+    font-size: 10px;
+    padding: 3px 8px;
+    text-transform: capitalize;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.hero-part{
+    padding: 50px;
+}
+.hero-writing-part h1{
+    font-size: 35px;
+    text-align: center;
+    text-align: start;
+    padding: 0px 20px;
+}
+.hero-writing-part p{
+    font-size: 10px;
+    font-weight: 100;
+    text-align: center;
+    padding: 20px 20px;
+    text-align: start;
+}
+.btn1{
+    text-align: center;
+    text-align: start;
+    padding: 0px 20px;
+}
+.btn1 button{
+    background-color: #00fff0;
+    color:black;
+    font-size: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+.btn1 button:hover{
+    background-color: #223047;
+    color: #fff;
+    border:1px solid #fff;
+}
+.hero-box-part img{
+    height: 500px;
+    margin: 0px 80px;
+    position: absolute;
+}
+/* service section */
+.service-part{
+    background-color: #fff;
+    color: black;
+    padding: 150px 0px 100px 0px;
+    text-align: center;
+}
+.service-writing-part h1{
+    font-size: 35px;
+    font-weight: 500;
+    width: 50%;
+    margin: auto;
+ 
+}
+.service-writing-part p{
+    border-bottom: 3px solid #11fff1;
+    width: 6%;
+    margin: 10px auto;
+    padding: 10px 0px;
+}
+.service-box{
+    width: 20%;
+    float: left;
+    background-color:#ffffff ;
+    color: #b3bccf ;
+    border: 0px solid #d8dbdd;
+    box-shadow: 0PX 1PX 2PX 1PX;
+    padding: 20px;
+    margin: 10PX ;
+}
+.service-box h2{
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 0px;
+}
+.service-box p{
+    font-size: 10px;
+    padding: 0px 20px;
+}
+/* smartphone section */
+.box-part {
+    background-color:#323a4d ;
+    height: 290px;
+}
+.box-part1{
+    height: 290px;
+    background-color: #f5f6fa;
+    color: black;
+    padding: 50px 20px;
+}
+.box-part1 h1{
+    font-size: 35px;
+    font-weight: 400;
+    text-align: start;
+}
+.box-part1 p{
+    font-size: 10px;
+    font-weight: 400;
+    text-align: start;
+}
+.smartphone-writing-part{
+    padding: 30px 5px;
+  
+}
+/* presentation section */
+.pt-part{
+    background-color: #fff;
+    color: black;
+
+}
+.writing-part{
+    text-align: end;
+}
+.writing-part h1{
+    font-size: 35px;
+    font-weight: 100;
+}
+.writing-part p{
+    width: 60%;
+    font-size: 10px;
+    font-weight: 100;
+    margin-left: auto;
+}
+.writing-part button{
+    color: black;
+    border: 1px solid black;
+    border-radius: 3px;
+    text-transform: capitalize;
+    padding: 5px 10px;
+}
+.writing-part button:hover{
+    background-color: #00fff0;
+    color: black;
+    transition: ease-in-out 0.5s;
+}
+.writing-part1{
+    padding: 35px 50px;
+
+}
+.writing-part1 img{
+    width: 300px;
+}
+/* middel */
+ .pt-middle-part{
+    background-color: #ffffff;
+    color: black;
+    height: 260px;
+}
+.middle-part img{
+    height: 300px;
+    text-align: left;
+    position: relative;
+}
+.middle-part2{
+   border: 1px solid #f4f4f5;
+   padding: 5px 20px;
+   margin: 5px;
+   box-shadow: 0px 0px 3px;
+ }
+.middle-part a{
+    display: inline-block;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 3px;
+    font-size: 15px;
+}
+ .middle-part2 img{
+    margin: auto;
+   
+}
+.middle-part2 h3{
+    display:inline-block; 
+    padding: 5PX;
+    font-size: 8px;
+    font-weight: 400;
+    text-align: start;
+}
+.pera{
+    font-size: 6px ;
+    font-weight: 400;
+    text-align: start;
+   
+} 
+.middle-part2 button:hover{
+    background-color: #00fff0;
+    color: black;
+} 
+
+/* iphone section */
+.iphone-part{
+    height: 195px;
+    background-color: #f5f6fa;
+    color: black;
+    padding: 30px 0px;
+}
+.iphone-writing-part h2 {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: end;
+}
+.iphone-writing-part h5{
+    font-size: 10px;
+    font-weight: 500;
+    text-align: end;
+}
+.fa-solid{
+    width: 12px;
+    background-color: #00fff0;
+    border-radius: 50%;
+    font-size: 12px;
+    margin-right: 10px;
+}
+.iphone-writing-part p{
+    text-align:end;
+    font-size: 7px;
+    font-weight: 500;
+    padding: 0px 0px 0px 150px;
+}
+.iphone-box img{
+    width: 250px;
+    padding: 0px 30px;
+}
+/* play button section */
+.play-button-part{
+    background-color: #223047;
+    color: #ffffff;
+    text-align: center;
+    padding: 50px 50px;
+}
+.play-button-img{
+    width: 10px auto;
+    height: 3%;
+    margin: auto;
+   
+}
+.play-button-writing h2{
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.play-button-writing p{
+    width: 60%;
+    font-size: 10px;
+    font-weight: 500;
+    text-align: center;
+    margin: auto;
+}
+/* user section */
+.user-part{
+    background-color: #ffffff;
+    color: black;
+    padding:100px 0px;
+    text-align: center;
+}
+.user-part h1{
+    font-size: 15px;
+    font-weight: 500;
+}
+.user-part h6{
+    font-size: 8px;
+    font-weight: 500;
+}
+.user-part button{
+    padding: 5px 10px;
+    border: 1px solid black;
+    text-transform: uppercase;
+}
+.user-part button:hover{
+    background-color: #00fff0;
+}
+/* peragraph section  */
+.peragraph-part{
+    background-color: #223047;
+    padding: 80px 0px;
+}
+
+.peragraph-part p{
+    width: 50%;
+    font-size: 10px;
+    font-weight: 500;
+    text-align: center; 
+    margin: auto;
+}
+/* app section  */
+ #app-part{
+    background-color: #f5f6fa;
+    height: 400px;
+}
+.app-image-part img{
+    padding: 80px 0px 80px 80px;
+    height: 400px;
+}
+.app-writting-part{
+     width: 50%;
+     padding: 80px 0px;
+}
+.app-writing-part h1{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px;
+}
+.app-writing-part p{
+    font-size: 10px;
+    font-weight: 300;
+    padding: 20px;
+    color: #b3bccf;
+}
+.button{
+    text-transform: uppercase;
+    padding: 20px;
+    margin-left: 30px;
+    position:relative;
+}
+.button:hover{
+    background-color: #00fff0;
+    color: #177680;
+} 
+/* footer section */
+#footer{
+    background-color: #ffffff;
+    color: #b3bccf;
+    padding: 50px 20px;
+    margin: auto;
+}
+.footer-part1{
+    width: 20%;
+    float: left;
+    text-align: start;
+    padding: 0px 20px;
+}
+.s-heading{
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+}
+.footer-part1 h5{
+    font-size: 8px;
+    font-weight: 500;
+    color: #b3bccf;
+}
+/* subscribe section */
+.subscribe-part{
+    background-color: #ffffff;
+    
+}
+.subscribe-writing-part h2{
+    font-size: 35px;
+    font-weight: 500;
+    text-align: center;
+}
+.subscribe-writing-part p{
+    font-size: 10px;
+    font-weight: 500;
+    text-align: center;
+    color: #b3bccf;
+}
+.search-btn{
+    padding: 30px 20px;
+    margin:auto;
+    text-align: center;
+} 
+.search-btn input{
+    background-color: #f5f6fa;
+    padding: 5px 100px;
+    margin: 0px 10px;
+}
+.btn{
+    padding: 5px 10px; 
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0px 10px;
+}
+.btn:hover{
+    background-color: #00fff0;
+}
+/* footer part */
+.footer-app {
+    background-color: #223047;
+    color: #ffffff;
+    padding: 10px 30px;
+    text-align: start;
+}
+.footer-app-part h4{
+    font-size: 10px;
+    color: #0fa5a7;
+    text-align: center;
+}
+.footer-icon-part a i{
+    color: #ffffff;
+    padding: 10px 10px;
+    text-align: end;
+}
